@@ -3,6 +3,10 @@ def bluetooth_finder(print_chars: bool | None = None):
     Finds bluetooth devices ? I think ? idrk tbh. . .
     \n
     IT BURNS (<-- Original Name of this Project)
+    \n
+    ###### [bleak](https://bleak.readthedocs.io/en/latest/)
+    ###### [asyncio](https://docs.python.org/3/library/asyncio.html)
+    ###### [colorama](https://pypi.org/project/colorama/)
     """
     try:
         import bleak, asyncio
